@@ -114,7 +114,6 @@ def main() -> None:
             show_step("Deleted Croissant from the repository")
 
             muffin = build_sample_good("Muffin", "Bakery A")
-            service.add_baked_good(muffin)
             show_step(f"Added replacement item with reused ID: {muffin.id}")
 
         else:
